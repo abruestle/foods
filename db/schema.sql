@@ -15,5 +15,6 @@ CREATE TABLE foods (
   id INT NOT NULL AUTO_INCREMENT,
   food_name VARCHAR(200) NOT NULL,
   devoured BOOLEAN NOT NULL DEFAULT 0,
+  allergens VARCHAR(200),
   PRIMARY KEY (id)
 );

@@ -1,0 +1,79 @@
+<div class="row">
+	<div class="col-md-1">
+	</div>
+	{{> foods/food-table devoured=false}}
+	{{> foods/food-table devoured=true}}
+	{{!-- <div class="col-md-5 transparent">
+		<table class="table">
+			<thead>
+				<tr>
+					<th>
+						#
+					</th>
+					<th>
+						Food
+					</th>
+					<th>
+						Allergens
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{#each foodsEaten}}
+					<tr>
+						<td>
+							{{this.id}}
+						</td>
+						<td>
+							{{this.food_name}}
+						</td>
+						<td>
+							{{this.allergens}}
+						</td>
+					</tr>
+				{{/each}}
+			</tbody>
+		</table>
+	</div> --}}
+	<div class="col-md-1">
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-1">
+	</div>
+	<div class="col-md-10 transparent">
+		<form role="form"  class="create-form">
+			{{!-- action="/api/foods" method="POST" --}}
+			<div class="form-group">
+				 <div class="row"><div class="col-md-6"><label for="inputFoodName">
+					Foods
+				</label><input type="text" class="form-control" placeholder= "Add a new food!" id="inputFoodName" name="name">
+			</div><div class="col-md-6"><label for="inputAllergens">
+					Allergies
+				</label><input type="text" class="form-control" placeholder= "Add allergens for food..." id="inputAllergens" name="allergens">
+			</div></div>
+			</div>
+			<button type="submit" class="btn btn-default">Submit</button>
+		</form>
+
+{{!-- 
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="ca">Cat Name:</label>
+    <input type="text" id="ca" name="name">
+  </div>
+
+  <div class="form-group">
+    <label for="sleepy">Sleepy?</label><br>
+    <input type="radio" name="sleepy" value="1" checked> Sleepy!<br>
+    <input type="radio" name="sleepy" value="0"> Awake
+  </div>
+
+  <button type="submit">Add Cat</button>
+</form> --}}
+
+	</div>
+	<div class="col-md-1">
+	</div>
+</div>

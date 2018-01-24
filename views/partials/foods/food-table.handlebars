@@ -1,0 +1,38 @@
+<div class="col-md-5 transparent">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    #
+                </th>
+                <th>
+                    Food
+                </th>
+                <th>
+                    Allergens
+                </th>
+                <th>
+                    Actions
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#if devoured}}
+                {{#each foods}}
+                    {{#if devoured}}
+                        {{> foods/food-row devoured=true}}
+                    {{/if}}
+                {{/each}}
+                
+            {{!-- foods devoured --}}
+            {{else}}
+                {{#each foods}}
+                    {{#unless devoured}}
+                        {{> foods/food-row devoured=false}}
+                    {{/unless}}
+                {{/each}}
+            {{/if}}
+            
+        </tbody>
+    </table>
+</div>

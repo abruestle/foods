@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("../img/pexels-photo-574111.jpeg");
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.transparent{
+    background:rgba(21, 21, 21, 0.7);
+}
+
+.col-md-5 {
+    padding: 10px;
+}
+
+.col-md-10 {
+    padding: 10px;
+}
