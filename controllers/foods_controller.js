@@ -35,6 +35,9 @@ router.post("/api/foods", function(req, res) {
 
 router.put("/api/foods/:id", function(req, res) {
   console.log("That was the put");
+  console.log(req.body);
+  console.log("------");
+  console.log(req.params);
   var condition = "id = " + req.params.id;
 
   console.log("condition", condition);
