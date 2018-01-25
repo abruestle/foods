@@ -18,9 +18,13 @@ body, html {
 .transparent{
     background:rgba(21, 21, 21, 0.7);
 }
+.tablerow {
+    display: table-row;
+}
 
 .col-md-5 {
     padding: 10px;
+    display: table-cell;
 }
 
 .col-md-10 {
