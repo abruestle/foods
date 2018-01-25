@@ -1,19 +1,48 @@
 # foods
-food logger using MySQL, Node, Express, Handlebars and a homemade ORM
+Food logger using MySQL, Node, Express, Handlebars and a homemade ORM
 
-## 
+## Use
+### Add a food
 
+* Add a food at the bottom, along with its allergens.
+* Automatically added as uneaten food
 
+### Devour/Remake food
 
+* You can eat or remake a food and move it from one table to another.
 
+### Delete food
 
+* Remove a food from the database.
 
+## Project
+### Design
 
+* Bootstrap for design
+* Uses handlebars in the view
 
+### MVC
 
-To Do:
+* Uses MVC controls to call SQL queries based on your actions.
 
-Basics:
+### Heroku deployment
+
+* Heroku link here: https://dashboard.heroku.com/apps/guarded-beyond-52728
+* Page: https://guarded-beyond-52728.herokuapp.com/
+* Uses JawsDB MySQL
+
+### npm packages used:
+
+* body-parser
+* express
+* express-handlebars
+* method-override
+* mysql
+
+## To Do:
+
+### Basics:
+
 [x] Set up basic file structure
 [x] Set up sql data making files (schema and seeds)
 [x] Set up server
@@ -22,7 +51,8 @@ Basics:
 [x] Set up Model
 [x] QA testing
 
-Additional:
+### Additional:
+
 [x] Picture on page
 [x] Deleting foods on table
 [ ] Modifying foods on table
