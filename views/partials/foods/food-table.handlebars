@@ -20,7 +20,7 @@
             {{#if devoured}}
                 {{#each foods}}
                     {{#if devoured}}
-                        {{> foods/food-row devoured=true}}
+                        {{> foods/food-row devoured=false}}
                     {{/if}}
                 {{/each}}
                 
@@ -28,7 +28,7 @@
             {{else}}
                 {{#each foods}}
                     {{#unless devoured}}
-                        {{> foods/food-row devoured=false}}
+                        {{> foods/food-row devoured=true}}
                     {{/unless}}
                 {{/each}}
             {{/if}}
