@@ -25,6 +25,7 @@ body, html {
 .col-md-5 {
     padding: 10px;
     display: table-cell;
+    float:none;
 }
 
 .col-md-10 {
