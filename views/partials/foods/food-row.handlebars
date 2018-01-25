@@ -9,8 +9,8 @@
         {{this.allergens}}
     </td>
     <td>
-	<button class="btn btn-default eat" data-id="{{id}}" data-devoured="{{devoured}}">
-		{{#if devoured}}Remake{{else}}Eat{{/if}}
+	<button class="btn btn-default devour" data-id="{{id}}" data-devoured="{{devoured}}">
+		{{#if devoured}}Remake{{else}}Devour{{/if}}
 	</button>
 	<button class="btn btn-default delete" data-id="{{this.id}}">Delete</button>
     </td>
