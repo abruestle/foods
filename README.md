@@ -19,12 +19,13 @@ Basics:
 [x] Set up server
 [x] Set up view
 [x] Set up controller
-[ ] Set up Model
-[ ] QA testing
+[x] Set up Model
+[x] QA testing
 
 Additional:
-[ ] Picture on page
-[ ] Deleting or modifying foods on table
+[x] Picture on page
+[x] Deleting foods on table
+[ ] Modifying foods on table
 [ ] Allergens - Uneaten foods can be selected by allergens
 [ ] Allergens as buttons (including adding new ones)
 [ ] Search via API for pictures that match the food name
