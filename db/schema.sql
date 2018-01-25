@@ -12,9 +12,10 @@ CREATE DATABASE foods_db;
 USE foods_db;
 
 CREATE TABLE foods (
-  id INT NOT NULL AUTO_INCREMENT,
+  id INT AUTO_INCREMENT NOT NULL,
   food_name VARCHAR(200) NOT NULL,
   devoured BOOLEAN NOT NULL DEFAULT 0,
   allergens VARCHAR(200),
+  createdAt TIMESTAMP NOT NULL,
   PRIMARY KEY (id)
 );
